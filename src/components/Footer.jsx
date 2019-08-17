@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
-import Logo from "components/_ui/Logo";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfinity } from '@fortawesome/free-solid-svg-icons'
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -39,7 +40,7 @@ const FooterAuthor = styled("a")`
 const Footer = () => (
     <FooterContainer>
         <Link to="/">
-            <Logo />
+            <FontAwesomeIcon icon={faInfinity} size="2x" />
         </Link>
         <FooterAuthor href="https://www.samstorres.com">
             © 2019 — Designed & developed by Sam S Torres
