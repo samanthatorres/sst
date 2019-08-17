@@ -1,7 +1,15 @@
 @import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 html {
     font-family: 'Inter', sans-serif;
+}
+
+h2.siteTitle { font-family: 'Satisfy', serif;
+    background: -webkit-linear-gradient(0deg, rgb(117, 76, 120) 0%, rgb(41, 108, 187) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none !important;
 }
 
 @supports (font-variation-settings: normal) {

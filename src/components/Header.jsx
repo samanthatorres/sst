@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import dimensions from "styles/dimensions";
-import Logo from "components/_ui/Logo";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfinity } from '@fortawesome/free-solid-svg-icons'
 
 const HeaderContainer = styled("div")`
     padding-top: 3.75em;
@@ -13,6 +14,16 @@ const HeaderContainer = styled("div")`
 const HeaderContent = styled("div")`
     display: flex;
     justify-content: space-between;
+
+    .fa-infinity { color: #111010; }
+
+    a { text-decoration: none; }
+
+    a h2.siteTitle {
+        display: inline;
+        padding-left: 15px; 
+        font-size: 2.5rem;
+    }
 `
 
 const HeaderLinks = styled("div")`
@@ -76,7 +87,8 @@ const Header = () => (
     <HeaderContainer>
         <HeaderContent>
             <Link to="/">
-                <Logo/>
+                <FontAwesomeIcon icon={faInfinity} size="2x" />
+                <h2 className="siteTitle">Sam S Torres</h2>
             </Link>
             <HeaderLinks>
                 <Link
