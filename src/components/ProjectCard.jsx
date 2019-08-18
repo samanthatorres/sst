@@ -32,7 +32,7 @@ const ProjectCardContainer = styled(Link)`
         transition: all 150ms ease-in-out;
 
         .ProjectCardAction {
-            color: ${colors.blue500};
+            color: ${colors.purple500};
             transition: all 150ms ease-in-out;
 
             span {
@@ -66,7 +66,7 @@ const ProjectCardContent = styled("div")`
         height: 100%;
         left: 0;
         top: 0;
-        background: ${colors.blue500};
+        background: ${colors.purple500};
         mix-blend-mode: multiply;
         opacity: 0;
         transition: all 150ms ease-in-out;
@@ -119,15 +119,11 @@ const ProjectCardImageContainer = styled("div")`
     background: ${colors.grey200};
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     overflow: hidden;
     position: relative;
-    padding-left: 2em;
-    padding-right: 2em;
 
     @media(max-width:${dimensions.maxwidthTablet}px) {
-        padding-top: 3em;
-        max-height: 200px;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -140,20 +136,15 @@ const ProjectCardImageContainer = styled("div")`
         height: 100%;
         left: 0;
         top: 0;
-        background: ${colors.blue500};
+        background: ${colors.purple500};
         mix-blend-mode: multiply;
         opacity: 0;
         transition: all 150ms ease-in-out;
     }
 
     img {
-        max-width: 400px;
         width: 100%;
         box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
-
-        @media(max-width:${dimensions.maxwidthTablet}px) {
-            max-width: 300px;
-        }
     }
 `
 
