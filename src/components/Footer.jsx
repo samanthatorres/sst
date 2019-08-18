@@ -43,7 +43,7 @@ const Footer = () => (
             <FontAwesomeIcon icon={faInfinity} size="2x" />
         </Link>
         <FooterAuthor href="https://www.samstorres.com">
-            © 2019 — Designed & developed by Sam S Torres
+            © 2019 — Powered by Gatsby and Prismic
         </FooterAuthor>
     </FooterContainer>
 )
