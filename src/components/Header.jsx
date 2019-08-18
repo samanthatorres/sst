@@ -23,6 +23,14 @@ const HeaderContent = styled("div")`
         display: inline;
         padding-left: 15px; 
         font-size: 2.5rem;
+
+        @media(max-width: ${dimensions.maxwidthTablet}px) {
+            grid-gap: 5.5em;
+        }
+
+        @media(max-width: ${dimensions.maxwidthMobile}px) {
+            grid-gap: 2.5em;
+        }
     }
 `
 
