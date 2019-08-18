@@ -59,7 +59,6 @@ const AboutLink = styled("a")`
 
 const AboutBio = styled("div")`
     padding-bottom: 3em;
-    max-width: 480px;
 
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
