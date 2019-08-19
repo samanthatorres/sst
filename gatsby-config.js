@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Sam S Torres | Digital Marketer and Developer in Atlanta`,
-        description: `Hey! I'm a digital marketing and front-end developer in Atlanta. Visit my site to see what I'm working on now.`,
+        description: `Hey! I'm a digital marketer and front-end developer in Atlanta. Visit my site to see what I'm working on now.`,
     author: `Sam S Torres`,
   },
   plugins: [
@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-plugin-favicon`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-source-filesystem`,
