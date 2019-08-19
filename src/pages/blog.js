@@ -31,7 +31,6 @@ const Blog = ({ posts, meta }) => (
     <>
         <Helmet
             title={`Blog | Sam S Torres`}
-            titleTemplate={`%s | Blog | Sam S Torres`}
             meta={[
                 {
                     name: `description`,

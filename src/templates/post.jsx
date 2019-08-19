@@ -96,8 +96,7 @@ const Post = ({ post, meta }) => {
     return (
         <>
             <Helmet
-                title={`${post.post_title[0].text} | Prist, Gatsby & Prismic Starter`}
-                titleTemplate={`%s | ${meta.title}`}
+                title={`${post.post_title[0].text} | Sam S Torres`}
                 meta={[
                     {
                         name: `description`,
