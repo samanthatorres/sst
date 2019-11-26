@@ -107,7 +107,7 @@ const Header = () => (
                 <Link
                     activeClassName="Link--is-active"
                     to="/blog">
-                    Blog
+                    Recipes
                 </Link>
             </HeaderLinks>
         </HeaderContent>
