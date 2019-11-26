@@ -68,7 +68,7 @@ const Blog = ({ posts, meta }) => (
         />
         <Layout>
             <BlogTitle>
-                Blog
+                Musings
             </BlogTitle>
             <BlogGrid>
                 {posts.map((post, i) => (
